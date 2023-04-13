@@ -1,0 +1,45 @@
+body {
+    height: 100%;
+    width: 80% !important; /* Ieteicamais lapas platums */
+    width: 200px; /* Mazākais iespējamais lapas platums */
+    max-width: 900px; /* Maksimālais lapas platums //700-900px */
+    margin: auto; /* Atkāpes ārpus body elementa */
+    background-color: #d6d6d6;
+
+}
+.texts{
+    font-size: 18px;
+}
+p {
+	background-color: rgba(163, 35, 35, 0.356);
+	color: gray;
+	border: 1px solid red;
+	font-size:17pt;
+}
+
+.topfoto {
+    width: 20%;
+    height: 100px;
+    border: 1px #cccccc none;
+    text-align: center;
+    margin: 0px;
+    float: left;
+    }
+.des1 {
+text-align: center;
+border: 1px solid orange;
+padding: 8px;
+}
+a.poga:link, a.poga:visited {
+ background-color: #238314;
+ color: white;
+ padding: 8px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ border-radius: 5px 30px 30px 30px;
+ box-shadow: 0 10px 15px 0;
+}
+a.poga:hover, a.poga:active {
+ background-color: #45cd30;
+}
